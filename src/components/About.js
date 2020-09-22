@@ -1,0 +1,205 @@
+import React from "react";
+import "../App.scss";
+import "./About.scss";
+import { Container, Row, Col } from "reactstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faUniversity,
+  faBuilding,
+  faUserGraduate,
+  faCertificate,
+  faCar,
+  faDesktop,
+} from "@fortawesome/free-solid-svg-icons";
+import { faBlogger, faGithub } from "@fortawesome/free-brands-svg-icons";
+
+const About = () => {
+  return (
+    <div id="about" className="padding-top-btm-5e">
+      <div>
+        <p className="menu-name font-color-yellow">ABOUT</p>
+      </div>
+      <Container>
+        {/* profile */}
+        <Row>
+          <Col xs={12} sm={6} md={6} className="background-color-gray">
+            <div className="padding-top-2e">
+              <p className="font-bold-900 font-1H font-color-bl">PROFILE</p>
+            </div>
+            <img src="./img/profile.jpg" alt="프로필 사진" id="profile-img" />
+            <div>
+              <span>설명글</span>
+              <p className="font-bold-700 font-1H font-color-lightgray">
+                <span className="padding-left-right-05e">진지훈</span>입니다.
+              </p>
+            </div>
+            <div className="padding-top-btm-1e">
+              <span className="padding-left-right-1e">
+                <a
+                  href="https://blog.naver.com/dev_seung2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FontAwesomeIcon
+                    icon={faBlogger}
+                    className="icon-size-2He icon-color"
+                  />
+                </a>
+              </span>
+              <span className="padding-left-right-1e">
+                <a
+                  href="https://github.com/devseung2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FontAwesomeIcon
+                    icon={faGithub}
+                    className="icon-size-2He icon-color"
+                  />
+                </a>
+              </span>
+            </div>
+          </Col>
+          {/* education, career */}
+          <Col xs={12} sm={6} md={6}>
+            <div className="padding-top-2e">
+              <div>
+                <p className="font-bold-900 font-1H font-color-bl align-left">
+                  EDUCATION
+                </p>
+              </div>
+              <div>
+                <p className="font-color-lightgray font-bold-700 align-left">
+                  <FontAwesomeIcon
+                    icon={faUserGraduate}
+                    className="icon-size-1e icon-color align-left"
+                  />
+                  <span className="padding-left-right-1e">2014.08</span>
+                  <span className="padding-left-right-1e">
+                    서울시립대학교 영어영문학과/경영학부 졸업
+                  </span>
+                </p>
+                <p className="font-color-lightgray font-bold-700 align-left">
+                  <FontAwesomeIcon
+                    icon={faUniversity}
+                    className="icon-size-1e icon-color align-left"
+                  />
+                  <span className="padding-left-right-1e">
+                    2015.08 ~ 2016.02
+                  </span>
+                  <span className="padding-left-right-1e">
+                    무역아카데미 무역마스터 과정 수료
+                  </span>
+                </p>
+                <p className="font-color-lightgray font-bold-700 align-left">
+                  <FontAwesomeIcon
+                    icon={faUniversity}
+                    className="icon-size-1e icon-color align-left"
+                  />
+                  <span className="padding-left-right-1e">2020.05 ~ 11</span>
+                  <span className="padding-left-right-1e">
+                    한국블록체인교육연구원 청년혁신가 양성과정 교육중
+                  </span>
+                </p>
+              </div>
+            </div>
+            <div className="padding-top-2e">
+              <div>
+                <p className="font-bold-900 font-1H font-color-bl align-left">
+                  CERTIFICATION
+                </p>
+              </div>
+              <div>
+                <p className="font-color-lightgray font-bold-700 align-left">
+                  <FontAwesomeIcon
+                    icon={faDesktop}
+                    className="icon-size-1e icon-color align-left"
+                  />
+                  <span className="padding-left-right-1e">2001.05</span>
+                  <span className="padding-left-right-1e">
+                    워드프로세서 2급 취득
+                  </span>
+                </p>
+                <p className="font-color-lightgray font-bold-700 align-left">
+                  <FontAwesomeIcon
+                    icon={faDesktop}
+                    className="icon-size-1e icon-color align-left"
+                  />
+                  <span className="padding-left-right-1e">2001.07</span>
+                  <span className="padding-left-right-1e">
+                    정보처리기능사 취득
+                  </span>
+                </p>
+                <p className="font-color-lightgray font-bold-700 align-left">
+                  <FontAwesomeIcon
+                    icon={faDesktop}
+                    className="icon-size-1e icon-color align-left"
+                  />
+                  <span className="padding-left-right-1e">2002.07</span>
+                  <span className="padding-left-right-1e">
+                    컴퓨터활용능력 2급 취득
+                  </span>
+                </p>
+                <p className="font-color-lightgray font-bold-700 align-left">
+                  <FontAwesomeIcon
+                    icon={faCar}
+                    className="icon-size-1e icon-color align-left"
+                  />
+                  <span className="padding-left-right-1e">2008.01</span>
+                  <span className="padding-left-right-1e">
+                    운전면허 1종 보통 취득
+                  </span>
+                </p>
+                <p className="font-color-lightgray font-bold-700 align-left">
+                  <FontAwesomeIcon
+                    icon={faCertificate}
+                    className="icon-size-1e icon-color align-left"
+                  />
+                  <span className="padding-left-right-1e">2018.08</span>
+                  <span className="padding-left-right-1e">
+                    TOEIC 880점 취득
+                  </span>
+                </p>
+              </div>
+            </div>
+            <div className="padding-top-2e">
+              <div>
+                <p className="font-bold-900 font-1H font-color-bl align-left">
+                  CAREER
+                </p>
+              </div>
+              <div>
+                <p className="font-color-lightgray font-bold-700 align-left">
+                  <FontAwesomeIcon
+                    icon={faBuilding}
+                    className="icon-size-1e icon-color"
+                  />
+                  <span className="padding-left-right-1e">
+                    2014.06 ~ 2015.05
+                  </span>
+                  <span className="padding-left-right-1e">
+                    서울시립대학교 대학영어센터 행정인턴
+                  </span>
+                </p>
+                <p className="font-color-lightgray font-bold-700 align-left">
+                  <FontAwesomeIcon
+                    icon={faBuilding}
+                    className="icon-size-1e icon-color"
+                  />
+                  <span className="padding-left-right-1e">
+                    2016.02 ~ 2020.04
+                  </span>
+                  <span className="padding-left-right-1e">
+                    (주)화성산업 해외영업관리부 대리
+                  </span>
+                </p>
+              </div>
+            </div>
+          </Col>
+        </Row>
+      </Container>
+    </div>
+  );
+};
+
+export default About;
