@@ -10,8 +10,8 @@ import {
   faCertificate,
   faCar,
   faDesktop,
+  faFilePdf,
 } from "@fortawesome/free-solid-svg-icons";
-import { faBlogger, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const About = () => {
   return (
@@ -26,41 +26,15 @@ const About = () => {
             <div className="padding-top-2e">
               <p className="font-bold-900 font-1H font-color-bl">PROFILE</p>
             </div>
-            <img src="./img/profile.jpg" alt="프로필 사진" id="profile-img" />
+            <img src="./img/profile.png" alt="프로필 사진" id="profile-img" />
             <div>
-              <span>설명글</span>
+              <span>항상 새로운 것에 도전하려고 하는</span>
               <p className="font-bold-700 font-1H font-color-lightgray">
                 <span className="padding-left-right-05e">진지훈</span>입니다.
               </p>
             </div>
-            <div className="padding-top-btm-1e">
-              <span className="padding-left-right-1e">
-                <a
-                  href="https://blog.naver.com/dev_seung2"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FontAwesomeIcon
-                    icon={faBlogger}
-                    className="icon-size-2He icon-color"
-                  />
-                </a>
-              </span>
-              <span className="padding-left-right-1e">
-                <a
-                  href="https://github.com/devseung2"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FontAwesomeIcon
-                    icon={faGithub}
-                    className="icon-size-2He icon-color"
-                  />
-                </a>
-              </span>
-            </div>
           </Col>
-          {/* education, career */}
+
           <Col xs={12} sm={6} md={6}>
             <div className="padding-top-2e">
               <div>
@@ -194,6 +168,17 @@ const About = () => {
                   </span>
                 </p>
               </div>
+            </div>
+            <div className="padding-top-1e">
+              <a
+                href="https://drive.google.com/file/d/1vihno_xk-ELBJq1PcngXDRqXHOdf8_vB/view?usp=sharing"
+                target="_blank"
+              >
+                <FontAwesomeIcon
+                  icon={faFilePdf}
+                  className="icon-size-2e icon-color"
+                />
+              </a>
             </div>
           </Col>
         </Row>
