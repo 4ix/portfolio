@@ -10,6 +10,7 @@ import {
   faCalendarAlt,
   faFilePdf,
   faFile,
+  faVideo,
 } from "@fortawesome/free-solid-svg-icons";
 
 const carousel_heartlink = [
@@ -60,6 +61,9 @@ const Projects = () => {
               <p className="font-color-lightgray font-bold">
                 기획의도 : 블록체인 기반 크라우드 소싱 마케팅 플랫폼 구축
               </p>
+              <span className="padding-left-right-1e keyword-yellow">
+                2020 경기도 온라인 블록체인 해커톤 장려상 수상
+              </span>
               <div className="padding-top-btm-1e">
                 <p className="font-bold">
                   <FontAwesomeIcon
@@ -77,7 +81,7 @@ const Projects = () => {
                     className="icon-size-1e icon-color"
                   />
                   <span className="padding-left-right-1e">
-                    2020.08.11 - 현재 진행중
+                    2020.08.11 - 2020. 10. 26
                   </span>
                 </p>
                 <p className="font-bold">
@@ -135,6 +139,15 @@ const Projects = () => {
                 >
                   <FontAwesomeIcon
                     icon={faFilePdf}
+                    className="icon-size-2e icon-color margin-left-1e"
+                  />
+                </a>
+                <a
+                  href="https://drive.google.com/file/d/1P8vjrTKvQly_kdFVGY-5aBVrju1oRz80/view?usp=sharing"
+                  target="_blank"
+                >
+                  <FontAwesomeIcon
+                    icon={faVideo}
                     className="icon-size-2e icon-color margin-left-1e"
                   />
                 </a>

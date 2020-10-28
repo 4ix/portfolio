@@ -32,9 +32,7 @@ const Contact = () => {
                 className="icon-size icon-color"
               />
               <p className="font-bold font-1H font-color-bl">Github</p>
-              <p className="font-bold font-color-lightgray">
-                https://github.com/4ix
-              </p>
+              <p className="font-bold font-color-lightgray">4ix</p>
             </a>
           </Col>
         </Row>
