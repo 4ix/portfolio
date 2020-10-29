@@ -11,12 +11,12 @@ import {
   faReact,
   faNode,
   faEthereum,
+  faUbuntu,
 } from "@fortawesome/free-brands-svg-icons";
 
 import {
   faCode,
   faShip,
-  faComment,
   faEnvelope,
   faCar,
 } from "@fortawesome/free-solid-svg-icons";
@@ -65,12 +65,12 @@ const Skills = () => {
             <p className="font-bold font-color-gray">VS Code</p>
           </Col>
           <Col xs={4} sm={3} md={2} className="padding-top-btm-05e">
-            <FontAwesomeIcon icon={faShip} className="icon-size" />
-            <p className="font-bold font-color-gray">Trading</p>
+            <FontAwesomeIcon icon={faUbuntu} className="icon-size" />
+            <p className="font-bold font-color-gray">Ubuntu</p>
           </Col>
           <Col xs={4} sm={3} md={2} className="padding-top-btm-05e">
-            <FontAwesomeIcon icon={faComment} className="icon-size" />
-            <p className="font-bold font-color-gray">Business Talking</p>
+            <FontAwesomeIcon icon={faShip} className="icon-size" />
+            <p className="font-bold font-color-gray">Trading</p>
           </Col>
           <Col xs={4} sm={3} md={2} className="padding-top-btm-05e">
             <FontAwesomeIcon icon={faEnvelope} className="icon-size" />
