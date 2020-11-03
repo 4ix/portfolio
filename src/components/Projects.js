@@ -108,6 +108,12 @@ const Projects = () => {
                     MongoDB
                   </span>
                 </p>
+                <p className="font-bold">
+                  <span className="keyword-yellow">Youtube API</span>
+                  <span className="keyword-yellow margin-left-right-03e">
+                    네이버 SNES
+                  </span>
+                </p>
               </div>
               <div>
                 <p className="font-bold">
