@@ -26,7 +26,7 @@ const About = () => {
             <div className="padding-top-2e">
               <p className="font-bold-900 font-1H font-color-bl">PROFILE</p>
             </div>
-            <img src="./img/profile.png" alt="프로필 사진" id="profile-img" />
+            <img src="./img/profile2.jpg" alt="프로필 사진" id="profile-img" />
             <div>
               <span>항상 새로운 것에 도전하려고 하는</span>
               <p className="font-bold-700 font-1H font-color-lightgray">
@@ -72,7 +72,7 @@ const About = () => {
                   />
                   <span className="padding-left-right-1e">2020.05 ~ 11</span>
                   <span className="padding-left-right-1e">
-                    한국블록체인교육연구원 청년혁신가 양성과정 교육중
+                    한국블록체인교육연구원 청년혁신가 양성과정 수료
                   </span>
                 </p>
               </div>
@@ -165,6 +165,18 @@ const About = () => {
                   </span>
                   <span className="padding-left-right-1e">
                     (주)화성산업 해외영업관리부 대리
+                  </span>
+                </p>
+                <p className="font-color-lightgray font-bold-700 align-left">
+                  <FontAwesomeIcon
+                    icon={faBuilding}
+                    className="icon-size-1e icon-color"
+                  />
+                  <span className="padding-left-right-1e">
+                    2020.12 ~ 2021.05
+                  </span>
+                  <span className="padding-left-right-1e">
+                    (주)코인플러그 사업개발팀 매니저
                   </span>
                 </p>
               </div>
