@@ -183,7 +183,7 @@ const About = () => {
             </div>
             <div className="padding-top-1e">
               <a
-                href="https://drive.google.com/file/d/1R17O-vMFYArf0WObKqKnPVlYHABTpOwz/view?usp=sharing"
+                href="https://drive.google.com/file/d/1i8awvT1smamuVqGgwW3HKFjIXhUqz-kM/view?usp=sharing"
                 target="_blank"
               >
                 <FontAwesomeIcon
